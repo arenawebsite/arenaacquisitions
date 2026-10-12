@@ -100,6 +100,16 @@ footer{background:var(--navy);padding:1.75rem 2.5rem;}
 .foot-mark{font-family:var(--serif);font-size:0.85rem;color:rgba(255,255,255,0.4);}
 .foot-mark b{color:#7EB3F5;font-weight:400}
 .foot-note{font-size:0.68rem;letter-spacing:0.06em;color:rgba(255,255,255,0.2);}
+.nav-right{display:flex;align-items:center;gap:1.75rem;}
+.nav-link{font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:#7EB3F5;text-decoration:none;}
+.nav-link:hover{color:#fff}
+#podcast-teaser{background:var(--paper);padding:3.5rem 0;border-top:0.5px solid var(--rule);}
+#podcast-teaser .pg{display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;}
+.pt-title{font-family:var(--serif);font-size:1.6rem;color:var(--navy);line-height:1.2;}
+.pt-title i{font-style:italic;color:var(--blue-light)}
+.pt-sub{font-size:0.875rem;color:var(--muted);margin-top:0.35rem;}
+.pt-btn{font-size:0.7rem;letter-spacing:0.16em;text-transform:uppercase;color:#fff;background:var(--navy);padding:0.85rem 1.5rem;text-decoration:none;}
+.pt-btn:hover{background:var(--blue)}
 @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .r{opacity:0;animation:rise 0.9s cubic-bezier(0.16,1,0.3,1) forwards}
 .r1{animation-delay:0.05s}.r2{animation-delay:0.18s}.r3{animation-delay:0.32s}.r4{animation-delay:0.46s}
@@ -110,7 +120,10 @@ footer{background:var(--navy);padding:1.75rem 2.5rem;}
 <nav>
   <div class="nav-inner">
     <a class="wordmark" href="#">Arena <b>Acquisitions</b></a>
-    <span class="nav-loc">Dublin, PA &nbsp;·&nbsp; Mid-Atlantic</span>
+    <div class="nav-right">
+      <a class="nav-link" href="/podcast/">Podcast</a>
+      <span class="nav-loc">Dublin, PA &nbsp;·&nbsp; Mid-Atlantic</span>
+    </div>
   </div>
 </nav>
 
@@ -262,6 +275,16 @@ footer{background:var(--navy);padding:1.75rem 2.5rem;}
       <div class="founder-role">Founder &amp; Managing Principal, Arena Acquisitions</div>
       <p class="founder-note">Cip is a multi-asset investor and operator with over two decades of real estate experience spanning residential and commercial. Arena Acquisitions is his acquisition platform — built to compound across essential service businesses using disciplined SBA financing, hands-on operations, and a long-horizon hold strategy. Every deal decision is made by the person who will also be accountable for the outcome.</p>
     </div>
+  </div>
+</section>
+
+<section id="podcast-teaser">
+  <div class="pg">
+    <div>
+      <div class="label">The Podcast &nbsp;·&nbsp; Coming Soon</div>
+      <div class="pt-title">Inside the Arena. <i>How regular people buy a business and leave their W-2.</i></div>
+    </div>
+    <a class="pt-btn" href="/podcast/">Explore the show</a>
   </div>
 </section>
 
