@@ -79,6 +79,15 @@ footer{background:var(--navy);padding:1.75rem 2.5rem;}
 .foot-mark{font-family:var(--serif);font-size:0.85rem;color:rgba(255,255,255,0.4);text-decoration:none;}
 .foot-mark b{color:#7EB3F5;font-weight:400}
 .foot-note{font-size:0.68rem;letter-spacing:0.06em;color:rgba(255,255,255,0.3);}
+#arena-quote{background:var(--bg2);padding:5.5rem 0;}
+.quote-wrap{max-width:760px;margin:0 auto;text-align:center;}
+.quote-mark{font-family:var(--serif);font-size:4rem;line-height:0.5;color:var(--blue-light);opacity:0.5;margin-bottom:1.25rem;}
+blockquote.tr{font-family:var(--serif);font-style:italic;font-size:clamp(1.2rem,2.1vw,1.45rem);line-height:1.6;color:var(--navy);}
+.tr-cite{margin-top:2rem;font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--blue);}
+.tr-src{font-size:0.8rem;color:var(--muted);margin-top:0.35rem;}
+.tr-src cite{font-style:italic}
+.quote-note{margin:2.25rem auto 0;padding-top:2rem;border-top:0.5px solid var(--rule);font-size:0.9rem;color:var(--muted);line-height:1.85;max-width:560px;}
+.quote-note b{color:var(--navy);font-weight:500}
 @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .r{opacity:0;animation:rise 0.9s cubic-bezier(0.16,1,0.3,1) forwards}
 .r1{animation-delay:0.05s}.r2{animation-delay:0.18s}.r3{animation-delay:0.32s}.r4{animation-delay:0.46s}
@@ -126,6 +135,21 @@ footer{background:var(--navy);padding:1.75rem 2.5rem;}
     </div>
   </div>
   <div class="hero-line"></div>
+</section>
+
+<section id="arena-quote">
+  <div class="pg">
+    <figure class="quote-wrap">
+      <div class="label">Why &ldquo;Inside the Arena&rdquo;</div>
+      <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+      <blockquote class="tr">It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</blockquote>
+      <figcaption>
+        <div class="tr-cite">Theodore Roosevelt</div>
+        <div class="tr-src"><cite>Citizenship in a Republic</cite>, Sorbonne, Paris &nbsp;·&nbsp; April 23, 1910</div>
+      </figcaption>
+      <p class="quote-note">This passage is <b>Cip&rsquo;s guiding principle</b> and the origin of the show&rsquo;s name. Buying a business means stepping into the arena yourself. This show is for the people ready to do it.</p>
+    </figure>
+  </div>
 </section>
 
 <section id="covers">
